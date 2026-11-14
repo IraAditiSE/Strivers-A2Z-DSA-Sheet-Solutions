@@ -1,4 +1,4 @@
-# Strivers-A2Z-DSA-Sheet
+# Strivers-A2Z-DSA-Sheet-Solutions
 This repository contains my structured solutions for Strivers A2Z DSA Sheet.
 
 ## 🛠️ Tech Stack & Platforms
