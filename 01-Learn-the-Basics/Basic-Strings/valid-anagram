@@ -1,0 +1,25 @@
+class Solution {
+    public boolean isAnagram(String s, String t) {
+
+        if(s.length()!=t.length())
+        return false;
+        
+        int[] alpha=new int[26];
+        for(char c: s.toCharArray())
+        {
+            alpha[(int)c-97]++;
+        }
+        for(char c: t.toCharArray())
+        {
+            alpha[(int)c-97]--;
+        }
+        for(int count: alpha)
+        {
+            if(count!=0)
+            {
+                return false;
+            }
+        }
+        return true;
+    }
+}
